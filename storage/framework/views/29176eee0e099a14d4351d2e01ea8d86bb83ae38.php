@@ -164,11 +164,26 @@
             .custom {
                 margin-top: 70px;
             }
+            .custom1 {
+                margin-top:5px;
+                z-index: 999999999999;
+            }
+            .navbar-collapse{
+                background-color: #2725a2;
+            }
             .jarak {
                 height: 100px;
             }
             .logo h2 {
                 display: none;
+            }
+            .navbar-collapse ul li a{
+                color: white;
+            }
+            .navbar-toggle{
+                font-size: 30px;
+                font-weight: lighter;
+                color: #2725a2;
             }
         }
 
@@ -205,13 +220,12 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row hidden-xs">
         <nav class="custom navbar navbar-fixed-top">
             <div class="container">
-
                 <div class="navbar-inverse">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <button type="button" class="navbar-toggle glyphicon glyphicon-log-out" data-toggle="collapse" data-target=".bs-navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -219,6 +233,51 @@
                     </div>
                     <div class="links bs-navbar-collapse navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-left ">
+                            <li><a href="/"><span class="fa fa-newspaper-o"></span> Berita & Rubrik</a></li>
+                            <li><a href="#"><span class="mega-octicon octicon-organization" style="font-size: 16px"></span>&nbsp;Tentang Kami</a></li>
+                            <li><a href="#"><span class="fa fa-paper-plane-o"></span> Program Kerja</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <?php if(Route::has('login')): ?>
+                                <?php if(Auth::check()): ?>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <?php echo e(Auth::user()->first_name); ?><span class="caret"></span> </a>
+                                        <ul class="dropdown-menu"
+                                            onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                                            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Logout</a></li>
+                                        </ul>
+                                        <form id="logout-form" action="<?php echo e(url('/logout')); ?>" method="POST" style="display: none;">
+                                            <?php echo e(csrf_field()); ?>
+
+                                        </form>
+                                    </li>
+                                <?php else: ?>
+                                    <li><a href="<?php echo e(url('/social/google')); ?>">Login</a></li>
+                                <?php endif; ?>
+                            <?php endif; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navbar untuk minim-->
+    <div class="">
+        <nav class="custom1 navbar navbar-fixed-top">
+            <div class="container">
+                <div class="nivbar">
+                    <div class="navbar-header ">
+                        <button type="button" class="navbar-toggle glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="links bs-navbar-collapse navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-left">
                             <li><a href="/"><span class="fa fa-newspaper-o"></span> Berita & Rubrik</a></li>
                             <li><a href="#"><span class="mega-octicon octicon-organization" style="font-size: 16px"></span>&nbsp;Tentang Kami</a></li>
                             <li><a href="#"><span class="fa fa-paper-plane-o"></span> Program Kerja</a></li>

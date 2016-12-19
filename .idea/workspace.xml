@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b6cfb9-9c08-4676-8607-f4dc3d958e69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/BeritaController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/BeritaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/panel/berita.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/panel/berita.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/983ec82e7c6b892922a950a382cf003cdc9e9290.php" afterPath="$PROJECT_DIR$/storage/framework/views/983ec82e7c6b892922a950a382cf003cdc9e9290.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fa01PaeMPB04FwvWE2dJ7fOKNhkluJQwwNH6DQKE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/v9bp5BvNHzQe9EMPpJzyTK6xZoQq8NKYrTGvuoOT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/xrFZREUYOU2Kl6ElTEmlBneU4KUHJzezD237v4G2" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/29176eee0e099a14d4351d2e01ea8d86bb83ae38.php" afterPath="$PROJECT_DIR$/storage/framework/views/29176eee0e099a14d4351d2e01ea8d86bb83ae38.php" />
     </list>
     <ignored path="websepbpjstk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +71,7 @@
       <file leaf-file-name="tulis.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/berita/tulis.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-15">
               <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
               <folding />
             </state>
@@ -89,18 +91,16 @@
       <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/berita/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="1080">
               <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
               <folding>
-                <element signature="e#3227#3246#0#HTML" expanded="true" />
                 <marker date="1482140334000" expanded="true" signature="3987:4185" ph="..." />
-                <marker date="1482140334000" expanded="true" signature="4000:4172" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeritaController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeritaController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BeritaController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -108,6 +108,16 @@
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,16 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,7 +189,6 @@
         <option value="$PROJECT_DIR$/app/Agenda.php" />
         <option value="$PROJECT_DIR$/app/Sifat.php" />
         <option value="$PROJECT_DIR$/resources/views/berita/indexInternal.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/berita/tulis.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_12_15_064751_create_gambar.php" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/resources/views/berita/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/panel/berita.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BeritaController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
       </list>
     </option>
   </component>
@@ -249,7 +249,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -680,6 +679,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -776,7 +776,8 @@
       <workItem from="1481764592082" duration="24090000" />
       <workItem from="1481852231417" duration="8648000" />
       <workItem from="1481880544805" duration="2754000" />
-      <workItem from="1482129048647" duration="9900000" />
+      <workItem from="1482129048647" duration="10219000" />
+      <workItem from="1482186219515" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="Delete unnecessary files">
       <created>1481607247073</created>
@@ -845,7 +846,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124876000" />
+    <option name="totallyTimeSpent" value="127819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1142,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,24 +1157,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/berita/indexInternal.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="288" column="4" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_12_15_064854_create_berita_gambar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,14 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/berita/tulis.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1220,12 +1202,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/berita/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="1080">
           <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
           <folding>
-            <element signature="e#3227#3246#0#HTML" expanded="true" />
             <marker date="1482140334000" expanded="true" signature="3987:4185" ph="..." />
-            <marker date="1482140334000" expanded="true" signature="4000:4172" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1235,21 +1215,6 @@
         <state relative-caret-position="450">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/berita/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-          <folding>
-            <marker date="1482141945000" expanded="true" signature="1745:2170" ph="..." />
-            <marker date="1482141945000" expanded="true" signature="1756:2169" ph="..." />
-            <marker date="1482141945000" expanded="true" signature="1792:1854" ph="..." />
-            <marker date="1482141945000" expanded="true" signature="1803:1853" ph="..." />
-            <marker date="1482141945000" expanded="true" signature="1889:2158" ph="..." />
-            <marker date="1482141945000" expanded="true" signature="1921:2157" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,6 +1235,37 @@
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/berita/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+          <folding>
+            <marker date="1482141945000" expanded="true" signature="1745:2170" ph="..." />
+            <marker date="1482141945000" expanded="true" signature="1756:2169" ph="..." />
+            <marker date="1482141945000" expanded="true" signature="1792:1854" ph="..." />
+            <marker date="1482141945000" expanded="true" signature="1803:1853" ph="..." />
+            <marker date="1482141945000" expanded="true" signature="1889:2158" ph="..." />
+            <marker date="1482141945000" expanded="true" signature="1921:2157" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/berita/tulis.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
